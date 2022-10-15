@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rick and Morty Quizzzzz!</title>
+    <link rel="stylesheet" type="text/css" href="Quiz.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background: #adadeb;
+        }
+    </style>
+    <div class=title>
+        <h1> Rick and Morty Quizzzzz!</h1>
+    </div>
+    <div class=questionBox>
+        <h1>1. What does Rick use to travel between dimensions and universes? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=1B onclick="QuestOneOne();QuestOneColor()">Portal gun</button>
+        </div>
+        <div row>
+            <button class=button id=1A onclick="QuestOneZero();QuestOneColor()"> Space laser</button>
+        </div>
+        <div row>
+            <button class=button id=1C onclick="QuestOneZero();QuestOneColor()">Tardis</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>2. Who are Rick's two best friends? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=2A onclick="QuestTwoZero();QuestTwoColor()">Eagleperson and Scrunchy</button>
+        </div>
+        <div row>
+            <button class=button id=2B onclick="QuestTwoOne();QuestTwoColor()">Birdperson and Squanchy</button>
+        </div>
+        <div row>
+            <button class=button id=2C onclick="QuestTwoZero();QuestTwoColor()">Beakperson and Squinchy</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>3. What is Scary Terry's catchphrase? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=3A onclick="QuestThreeZero();QuestThreeColor()">Kablam</button>
+        </div>
+        <div row>
+            <button class=button id=3C onclick="QuestThreeZero();QuestThreeColor()">Here's looking at you</button>
+        </div>
+        <div row>
+            <button class=button id=3B onclick="QuestThreeOne();QuestThreeColor()">Bitch</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>4. Who said the following line,”The Beacon was activated.Who is in danger.” </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=4B onclick="QuestFourOne();QuestFourColor()">Birdperson</button>
+        </div>
+        <div row>
+            <button class=button id=4A onclick="QuestFourZero();QuestFourColor()">Adolf Lincler</button>
+        </div>
+        <div row>
+            <button class=button id=4C onclick="QuestFourZero();QuestFourColor()">Rick</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>5. Who is the only character that survived through the destruction of Anatomy Park? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=5A onclick="QuestFiveZero();QuestFiveColor()">Roger</button>
+        </div>
+        <div row>
+            <button class=button id=5C onclick="QuestFiveZero();QuestFiveColor()">Poncho</button>
+        </div>
+        <div row>
+            <button class=button id=5B onclick="QuestFiveOne();QuestFiveColor()">Annie</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>6. Which gadget is used to liquify the brain of subjects ? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=6A onclick="QuestSixZero();QuestSixColor()">
+                Freeze Ray</button>
+        </div>
+        <div row>
+            <button class=button id=6B onclick="QuestSixOne();QuestSixColor()">The Series 9000 Brainalyzer</button>
+        </div>
+        <div row>
+            <button class=button id=6C onclick="QuestSixZero();QuestSixColor()">The Cognition Amplifier</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>7. According to birdperson, what does wubba lubba dub-dub mean? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=7B onclick="QuestSevenOne();QuestSevenColor()">“I am in great pain, please help
+                me”</button>
+        </div>
+        <div row>
+            <button class=button id=7A onclick="QuestSevenZero();QuestSevenColor()">Pants? Who needs Pants?”</button>
+        </div>
+        <div row>
+            <button class=button id=7C onclick="QuestSevenZero();QuestSevenColor()">You’re a moron, Jerry”</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>8. what animal does beth a surgeon for? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=8B onclick="QuestEightOne();QuestEightColor()">Horse</button>
+        </div>
+        <div row>
+            <button class=button id=8A onclick="QuestEightZero();QuestEightColor()">Donkey</button>
+        </div>
+        <div row>
+            <button class=button id=8C onclick="QuestEightZero();QuestEightColor()">Goat</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>9. What is scary terry's son's name? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=9A onclick="QuestNineZero();QuestNineColor()">Haunting Harry</button>
+        </div>
+        <div row>
+            <button class=button id=9C onclick="QuestNineZero();QuestNineColor()">Scary Michael</button>
+        </div>
+        <div row>
+            <button class=button id=9B onclick="QuestNineOne();QuestNineColor()">Scary Brandon</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>10. How old is rick? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=10A onclick="QuestTenZero();QuestTenColor()">81</button>
+        </div>
+        <div row>
+            <button class=button id=10B onclick="QuestTenOne();QuestTenColor()">70</button>
+        </div>
+        <div row>
+            <button class=button id=10C onclick="QuestTenZero();QuestTenColor()">62</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>11. Who said some voids can't be filled with jamba juice.”? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=11B onclick="QuestElevenOne();QuestElevenColor()">Mr. Goldenfold</button>
+        </div>
+        <div row>
+            <button class=button id=11A onclick="QuestElevenZero();QuestElevenColor()">Morty</button>
+        </div>
+        <div row>
+            <button class=button id=11C onclick="QuestElevenZero();QuestElevenColor()"> Jerry</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>12. In morty's mindblowers, rick messes up which phrase?</h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=12A onclick="QuestTwelveZero();QuestTwelveColor()">Taking things for
+                Spanish</button>
+        </div>
+        <div row>
+            <button class=button id=12C onclick="QuestTwelveZero();QuestTwelveColor()">Taking things for Grants</button>
+        </div>
+        <div row>
+            <button class=button id=12B onclick="QuestTwelveOne();QuestTwelveColor()">Taking things for Granite</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>13. What was jerry's major in college? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=13A onclick="QuestThirteenZero();QuestThirteenColor()">Psychology</button>
+        </div>
+        <div row>
+            <button class=button id=13C onclick="QuestThirteenZero();QuestThirteenColor()">Civics</button>
+        </div>
+        <div row>
+            <button class=button id=13B onclick="QuestThirteenOne();QuestThirteenColor()">Liberal Arts</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>14. Who does ethan dump summer for before their planned camping trip? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=14A onclick="QuestFourteenZero();QuestFourteenColor()">Jessica</button>
+        </div>
+        <div row>
+            <button class=button id=14B onclick="QuestFourteenOne();QuestFourteenColor()">Tricia</button>
+        </div>
+        <div row>
+            <button class=button id=14C onclick="QuestFourteenZero();QuestFourteenColor()">Tammy</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>15. What was the name of rick's rock band? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=15A onclick="QuestFifteenZero();QuestFifteenColor()">The Flesh Carpets</button>
+        </div>
+        <div row>
+            <button class=button id=15C onclick="QuestFifteenZero();QuestFifteenColor()">The Flesh Drapes</button>
+        </div>
+        <div row>
+            <button class=button id=15B onclick="QuestFifteenOne();QuestFifteenColor()">The Flesh Curtains</button>
+        </div>
+    </div>
+    <div class=final>
+        <button id=Submit onclick="result();SubmitColor()">Submit</button>
+    </div>
+    <script src="Quiz.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Big Bang Theory Quizzzzz!</title>
+    <link rel="stylesheet" type="text/css" href="Quiz.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background: #adadeb;
+        }
+    </style>
+    <div class=title>
+        <h1> The Big Bang Theory Quizzzzz!</h1>
+    </div>
+    <div class=questionBox>
+        <h1>1. Which three animals is Sheldon Cooper most scared of? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=1B onclick="QuestOneOne();QuestOneColor()">Birds, dogs and hamsters</button>
+        </div>
+        <div row>
+            <button class=button id=1A onclick="QuestOneZero();QuestOneColor()">Cats, guinea pigs and wasps</button>
+        </div>
+        <div row>
+            <button class=button id=1C onclick="QuestOneZero();QuestOneColor()">Crocodiles, sharks and mosquitoes
+            </button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>2. When Penny becomes obsessed with online gaming, what's her online gamer
+            tag? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=2A onclick="QuestTwoZero();QuestTwoColor()">Penny The Beast-Killer</button>
+        </div>
+        <div row>
+            <button class=button id=2B onclick="QuestTwoOne();QuestTwoColor()">Queen Penelope</button>
+        </div>
+        <div row>
+            <button class=button id=2C onclick="QuestTwoZero();QuestTwoColor()">Slugger</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>3. What food is Amy allergic to? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=3B onclick="QuestThreeOne();QuestThreeColor()">Avocados
+            </button>
+        </div>
+        <div row>
+            <button class=button id=3A onclick="QuestThreeZero();QuestThreeColor()">Cucumbers</button>
+        </div>
+        <div row>
+            <button class=button id=3C onclick="QuestThreeOne();QuestThreeColor()">Grapes</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>4. What is Howard's nickname amongst the other astronauts? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=4A onclick="QuestFourZero();QuestFourColor()">Rocket Man</button>
+        </div>
+        <div row>
+            <button class=button id=4B onclick="QuestFourOne();QuestFourColor()">Fruit Loops</button>
+        </div>
+        <div row>
+            <button class=button id=4C onclick="QuestFourZero();QuestFourColor()">The Human Beatbox</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>5. What is Sheldon's sister called? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=5A onclick="QuestFiveZero();QuestFiveColor()">Sissy</button>
+        </div>
+        <div row>
+            <button class=button id=5C onclick="QuestFiveZero();QuestFiveColor()">Misty</button>
+        </div>
+        <div row>
+            <button class=button id=5B onclick="QuestFiveOne();QuestFiveColor()">Missy
+            </button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>6. Who does Sheldon call an 'Egg Salad' in season 6? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=6A onclick="QuestSixZero();QuestSixColor()">Penny</button>
+        </div>
+        <div row>
+            <button class=button id=6B onclick="QuestSixOne();QuestSixColor()">His assistant Alex</button>
+        </div>
+        <div row>
+            <button class=button id=6C onclick="QuestSixZero();QuestSixColor()">His girlfriend Amy</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>7. How much money do Raj and Howard spend on action figures of themselves? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=7B onclick="QuestSevenOne();QuestSevenColor()">$1,000</button>
+        </div>
+        <div row>
+            <button class=button id=7A onclick="QuestSevenZero();QuestSevenColor()">$350</button>
+        </div>
+        <div row>
+            <button class=button id=7C onclick="QuestSevenOne();QuestSevenColor()">$500</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>8. What is the name of Raj's dog? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=8A onclick="QuestEightZero();QuestEightColor()">Cookie</button>
+        </div>
+        <div row>
+            <button class=button id=8C onclick="QuestEightZero();QuestEightColor()"> Cupcake</button>
+        </div>
+        <div row>
+            <button class=button id=8B onclick="QuestEightOne();QuestEightColor()"> Cinnamon</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>9. What is Sheldon Cooper's middle name? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=9B onclick="QuestNineOne();QuestNineColor()">Lee</button>
+        </div>
+        <div row>
+            <button class=button id=9A onclick="QuestNineZero();QuestNineColor()">Malcolm</button>
+        </div>
+        <div row>
+            <button class=button id=9C onclick="QuestNineZero();QuestNineColor()">He doesn't have one</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>10. What Christmas present did Penny get Sheldon? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=10A onclick="QuestTenZero();QuestTenColor()">A hug</button>
+        </div>
+        <div row>
+            <button class=button id=10C onclick="QuestTenZero();QuestTenColor()">An action figure of The Flash </button>
+        </div>
+        <div row>
+            <button class=button id=10B onclick="QuestTenOne();QuestTenColor()">A napkin signed by Leonard Nimoy
+            </button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>11. How does Penny 'ruin' Sheldon's spot? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=11A onclick="QuestElevenZero();QuestElevenColor()">She split red wine on the
+                cushion</button>
+        </div>
+        <div row>
+            <button class=button id=11B onclick="QuestElevenOne();QuestElevenColor()">A paintball gun</button>
+        </div>
+        <div row>
+            <button class=button id=11C onclick="QuestElevenZero();QuestElevenColor()">She covered it in nail
+                varnish</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>12. What cocktail does Penny make Raj that makes him able to talk to women? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=12B onclick="QuestTwelveOne();QuestTwelveColor()">A Grasshopper</button>
+        </div>
+        <div row>
+            <button class=button id=12A onclick="QuestTwelveZero();QuestTwelveColor()">Long Island Iced Tea</button>
+        </div>
+        <div row>
+            <button class=button id=12C onclick="QuestTwelveZero();QuestTwelveColor()">Coffe</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>13. What Video Game does Penny Get Addicted To? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=13B onclick="QuestThirteenOne();QuestThirteenColor()">Age of Conan</button>
+        </div>
+        <div row>
+            <button class=button id=13C onclick="QuestThirteenZero();QuestThirteenColor()">Call of Duty</button>
+        </div>
+        <div row>
+            <button class=button id=13A onclick="QuestThirteenOne();QuestThirteenColor()">World of Warcraft</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>14. How does Sheldon arrange his cereal? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=14B onclick="QuestFourteenOne();QuestFourteenColor()">By fibre content </button>
+        </div>
+        <div row>
+            <button class=button id=14A onclick="QuestFourteenZero();QuestFourteenColor()">Alphabetically</button>
+        </div>
+        <div row>
+            <button class=button id=14C onclick="QuestFourteenZero();QuestFourteenColor()">By colour</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>15. How many cats does Sheldon buy when he breaks up with Amy? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=15A onclick="QuestFifteenZero();QuestFifteenColor()">15</button>
+        </div>
+        <div row>
+            <button class=button id=15C onclick="QuestFifteenZero();QuestFifteenColor()">10</button>
+        </div>
+        <div row>
+            <button class=button id=15B onclick="QuestFifteenOne();QuestFifteenColor()">25</button>
+        </div>
+    </div>
+    <div class=final>
+        <button id=Submit onclick="result();SubmitColor()">Submit</button>
+    </div>
+    <script src="Quiz.js"></script>
+</body>
+
+</html>

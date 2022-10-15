@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Friends Quizzzzz!</title>
+    <link rel="stylesheet" type="text/css" href="Quiz.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background: #adadeb;
+
+        }
+    </style>
+    <div class=title>
+        <h1>f.r.i.e.n.d.s!</h1>
+    </div>
+    <div class=questionBox>
+        <h1>1. How many sisters does Joey have? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=1B onclick="QuestOneOne();QuestOneColor()">7</button>
+        </div>
+        <div row>
+            <button class=button id=1C onclick="QuestOneZero();QuestOneColor()">5</button>
+        </div>
+        <div row>
+            <button class=button id=1A onclick="QuestOneZero();QuestOneColor()">2</button>
+        </div>
+    </div>
+
+    <div class=questionBox>
+        <h1>2. What is Chandler’s middle name? </h1>
+    </div>
+    <div class="choice">
+
+
+        <div row>
+            <button class=button id=2A onclick="QuestTwoZero();QuestTwoColor()">Charles</button>
+        </div>
+        <div row>
+            <button class=button id=2B onclick="QuestTwoOne();QuestTwoColor()">Muriel</button>
+        </div>
+        <div row>
+            <button class=button id=2C onclick="QuestTwoZero();QuestTwoColor()">Nora</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>3. How many pages were in the letter Rachel wrote to Ross (front and back!)? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=3B onclick="QuestThreeOne();QuestThreeColor()">18</button>
+        </div>
+        <div row>
+            <button class=button id=3A onclick="QuestThreeZero();QuestThreeColor()">12</button>
+        </div>
+        <div row>
+            <button class=button id=3C onclick="QuestThreeZero();QuestThreeColor()">8</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>4. Which city did Phoebe’s boyfriend, David, move to? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=4A onclick="QuestFourZero();QuestFourColor()">Yemen</button>
+        </div>
+        <div row>
+            <button class=button id=4B onclick="QuestFourOne();QuestFourColor()">Minsk</button>
+        </div>
+        <div row>
+            <button class=button id=4C onclick="QuestFourZero();QuestFourColor()">Tulsa</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>5. What ridiculously expensive gift did Ross get Carol when he fell in love with her? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=5A onclick="QuestFiveZero();QuestFiveColor()">A $500 dollar watch</button>
+        </div>
+        <div row>
+            <button class=button id=5C onclick="QuestFiveZero();QuestFiveColor()">An early edition of her favourite
+                book</button>
+        </div>
+        <div row>
+            <button class=button id=5B onclick="QuestFiveOne();QuestFiveColor()">A crystal duck</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>6. What does Chandler have to do to get Joey to forgive him, after having kissed Cathy? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=6A onclick="QuestSixZero();QuestSixColor()">Move to Yemen</button>
+        </div>
+        <div row>
+            <button class=button id=6C onclick="QuestSixZero();QuestSixColor()">Furnish their apartment</button>
+        </div>
+        <div row>
+            <button class=button id=6B onclick="QuestSixOne();QuestSixColor()">Lie in a wooden box for six
+                hours</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>7. What happens to Rachel’s boss, Joanna, the night before her promotion goes through? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=7A onclick="QuestSevenZero();QuestSevenColor()">She falls down an elevator
+                shaft</button>
+        </div>
+        <div row>
+            <button class=button id=7C onclick="QuestSevenZero();QuestSevenColor()">She goes on a date with
+                Chandler</button>
+        </div>
+        <div row>
+            <button class=button id=7B onclick="QuestSevenOne();QuestSevenColor()">She gets hit by a taxi</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>8. What was the name of the ice-dancer Phoebe was married to? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=8B onclick="QuestEightOne();QuestEightColor()">Duncan</button>
+        </div>
+        <div row>
+            <button class=button id=8A onclick="QuestEightZero();QuestEightColor()">Mike</button>
+        </div>
+        <div row>
+            <button class=button id=8C onclick="QuestEightZero();QuestEightColor()">Gary</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>9. What was Monica’s nickname when she was a field hockey goalie? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=9A onclick="QuestNineZero();QuestNineColor()">Crazy Plate Lady</button>
+        </div>
+        <div row>
+            <button class=button id=9C onclick="QuestNineZero();QuestNineColor()">Little Harmonica</button>
+        </div>
+        <div row>
+            <button class=button id=9B onclick="QuestNineOne();QuestNineColor()">Big Fat Goalie</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>10. What is the name of Joey’s character in the commercial for opening milk cartons? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=10A onclick="QuestTenZero();QuestTenColor()">Tommy</button>
+        </div>
+        <div row>
+            <button class=button id=10B onclick="QuestTenOne();QuestTenColor()">Kevin</button>
+        </div>
+        <div row>
+            <button class=button id=10C onclick="QuestTenZero();QuestTenColor()">Mike</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>11. What is the name of the game Chandler made up when he wanted to give joey money? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=11A onclick="QuestElevenZero();QuestElevenColor()">Bamboozle</button>
+        </div>
+        <div row>
+            <button class=button id=11B onclick="QuestElevenOne();QuestElevenColor()">Cups</button>
+        </div>
+        <div row>
+            <button class=button id=11C onclick="QuestElevenZero();QuestElevenColor()">Foosball</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>12. What is Joey's favorite food? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=12A onclick="QuestTwelveZero();QuestTwelveColor()">Potatoes</button>
+        </div>
+        <div row>
+            <button class=button id=12C onclick="QuestTwelveZero();QuestTwelveColor()">Pizzas</button>
+        </div>
+        <div row>
+            <button class=button id=12B onclick="QuestTwelveOne();QuestTwelveColor()">Sandwiches</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>13. Chandler had a crazy roommate, what is his name? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=13A onclick="QuestThirteenZero();QuestThirteenColor()">Steve</button>
+        </div>
+        <div row>
+            <button class=button id=13B onclick="QuestThirteenOne();QuestThirteenColor()">Eddie</button>
+        </div>
+        <div row>
+            <button class=button id=13C onclick="QuestThirteenZero();QuestThirteenColor()">Marcus</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>14. When Ross was stuck in a bathroom due to his leather pants, who did he called? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=14B onclick="QuestFourteenOne();QuestFourteenColor()">Joey</button>
+        </div>
+        <div row>
+            <button class=button id=14A onclick="QuestFourteenZero();QuestFourteenColor()">Phoebe</button>
+        </div>
+        <div row>
+            <button class=button id=14C onclick="QuestFourteenZero();QuestFourteenColor()">Chandler</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>15. What was Emma's first word according to Rachel? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=15A onclick="QuestFifteenZero();QuestFifteenColor()">Pleba</button>
+        </div>
+        <div row>
+            <button class=button id=15B onclick="QuestFifteenOne();QuestFifteenColor()">Gleba</button>
+        </div>
+        <div row>
+            <button class=button id=15C onclick="QuestFifteenZero();QuestFifteenColor()">Treba</button>
+        </div>
+    </div>
+    <div class=final>
+        <button id=Submit onclick="result();SubmitColor()">Submit</button>
+    </div>
+    <script src="Quiz.js"></script>
+</body>
+
+</html>

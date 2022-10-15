@@ -1,0 +1,99 @@
+#subject {
+    background-color: #aa80ff;
+    border: none;
+    color: black;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 5px 5px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: yellow;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 5px;
+    cursor: pointer;
+    width: 30%;
+}
+
+#Submit {
+    background-color: #007bb5;
+    border: none;
+    color: yellow;
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 5px;
+    cursor: pointer;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#subject:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.title {
+    background-color: none;
+    border: none;
+    color: darkmagenta;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 1px 1px;
+    margin-bottom: -20px;
+}
+
+.questionBox {
+    background-color: none;
+    border: none;
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 1px 1px;
+    margin-bottom: -20px;
+    margin-left: 25%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choice {
+    background-color: none;
+    border: none;
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 1px 1px;
+    margin-bottom: -20px;
+    margin-left: 40%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.topics {
+    position: fixed;
+    margin-left: 33%;
+    margin-top: 5px;
+    margin-right: 500px;
+    width: 40%;
+}

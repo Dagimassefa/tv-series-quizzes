@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HIMYM Quizzzzz!</title>
+    <link rel="stylesheet" type="text/css" href="Quiz.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background: #adadeb;
+        }
+    </style>
+    <div class=title>
+        <h1> HIMYM Quizzzzz!</h1>
+    </div>
+    <div class=questionBox>
+        <h1>1. Who invented the Lemon Law?</h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=1B onclick="QuestOneOne();QuestOneColor()">Barney</button>
+        </div>
+        <div row>
+            <button class=button id=1A onclick="QuestOneZero();QuestOneColor()">Marshall</button>
+        </div>
+        <div row>
+            <button class=button id=1C onclick="QuestOneZero();QuestOneColor()">Lily</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>2. What is Robin's occupation?</h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=2A onclick="QuestTwoZero();QuestTwoColor()">Professor</button>
+        </div>
+        <div row>
+            <button class=button id=2B onclick="QuestTwoOne();QuestTwoColor()">News reporter</button>
+        </div>
+        <div row>
+            <button class=button id=2C onclick="QuestTwoZero();QuestTwoColor()"> Columnist</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>3. Who does Ted have a crush on, as well as an on-again, off-again relationship? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=3A onclick="QuestThreeZero();QuestThreeColor()"> Victoria</button>
+        </div>
+        <div row>
+            <button class=button id=3C onclick="QuestThreeZero();QuestThreeColor()"> Lily</button>
+        </div>
+        <div row>
+            <button class=button id=3B onclick="QuestThreeOne();QuestThreeColor()">Robin</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>4. Where does Ranjit, a cab driver, come from? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=4A onclick="QuestFourZero();QuestFourColor()">India</button>
+        </div>
+        <div row>
+            <button class=button id=4B onclick="QuestFourOne();QuestFourColor()">Bangladesh</button>
+        </div>
+        <div row>
+            <button class=button id=4C onclick="QuestFourZero();QuestFourColor()">Pakistan</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>5. What is the name of the bartender at MacLaren's, the bar frequented by the main characters? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=5B onclick="QuestFiveOne();QuestFiveColor()">Carl</button>
+        </div>
+        <div row>
+            <button class=button id=5A onclick="QuestFiveZero();QuestFiveColor()"> Mark</button>
+        </div>
+        <div row>
+            <button class=button id=5C onclick="QuestFiveZero();QuestFiveColor()">James</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>6. What is Robin's middle name? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=6C onclick="QuestSixZero();QuestSixColor()">Tracy</button>
+        </div>
+        <div row>
+            <button class=button id=6A onclick="QuestSixZero();QuestSixColor()">Evelyn</button>
+        </div>
+        <div row>
+            <button class=button id=6B onclick="QuestSixOne();QuestSixColor()">Charles</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>7. What is Barney's biggest fear? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=7B onclick="QuestSevenOne();QuestSevenColor()">Spiders</button>
+        </div>
+        <div row>
+            <button class=button id=7A onclick="QuestSevenZero();QuestSevenColor()">Commitment</button>
+        </div>
+        <div row>
+            <button class=button id=7C onclick="QuestSevenZero();QuestSevenColor()">Rejection</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>8. What type of barnyard animal beat up Ted? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=8A onclick="QuestEightZero();QuestEightColor()">Sheep</button>
+        </div>
+        <div row>
+            <button class=button id=8B onclick="QuestEightOne();QuestEightColor()">Goat</button>
+        </div>
+        <div row>
+            <button class=button id=8C onclick="QuestEightZero();QuestEightColor()">Calf</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>9. What level of education does Lily teach? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=9B onclick="QuestNineOne();QuestNineColor()">Kindergarten</button>
+        </div>
+        <div row>
+            <button class=button id=9A onclick="QuestNineZero();QuestNineColor()">Middle school</button>
+        </div>
+        <div row>
+            <button class=button id=9C onclick="QuestNineZero();QuestNineColor()">High school</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>10. What unexplained fruit did Ted find in his apartment after a drunken night out? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=10A onclick="QuestTenZero();QuestTenColor()">Kiwi</button>
+        </div>
+        <div row>
+            <button class=button id=10C onclick="QuestTenZero();QuestTenColor()">Banana</button>
+        </div>
+        <div row>
+            <button class=button id=10B onclick="QuestTenOne();QuestTenColor()">Pineapple</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>11. What US state is Marshall from?
+        </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=11A onclick="QuestElevenZero();QuestElevenColor()">North Dakota</button>
+        </div>
+        <div row>
+            <button class=button id=11B onclick="QuestElevenOne();QuestElevenColor()">Minnesota</button>
+        </div>
+        <div row>
+            <button class=button id=11C onclick="QuestElevenZero();QuestElevenColor()">Alaska</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>12. How many seasons of How I Met Your Mother were there? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=12B onclick="QuestTwelveOne();QuestTwelveColor()">9</button>
+        </div>
+        <div row>
+            <button class=button id=12A onclick="QuestTwelveZero();QuestTwelveColor()">7 </button>
+        </div>
+        <div row>
+            <button class=button id=12C onclick="QuestTwelveZero();QuestTwelveColor()">5</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>13. What did Ted steal for Robin? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=13A onclick="QuestThirteenZero();QuestThirteenColor()">Blue tuba</button>
+        </div>
+        <div row>
+            <button class=button id=13B onclick="QuestThirteenOne();QuestThirteenColor()">Blue French horn</button>
+        </div>
+        <div row>
+            <button class=button id=13C onclick="QuestThirteenZero();QuestThirteenColor()">Blue violin</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>14. Which Breaking Bad actor played Ted’s boss Hammond Druthers? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=14A onclick="QuestFourteenZero();QuestFourteenColor()">Jon Hamm</button>
+        </div>
+        <div row>
+            <button class=button id=14C onclick="QuestFourteenZero();QuestFourteenColor()">Aaron Paul</button>
+        </div>
+        <div row>
+            <button class=button id=14B onclick="QuestFourteenOne();QuestFourteenColor()">Bryan Cranston</button>
+        </div>
+    </div>
+    <div class=questionBox>
+        <h1>15. Which game show host does Barney think is his father? </h1>
+    </div>
+    <div class="choice">
+        <div row>
+            <button class=button id=15A onclick="QuestFifteenZero();QuestFifteenColor()">Steve Harvey</button>
+        </div>
+        <div row>
+            <button class=button id=15C onclick="QuestFifteenZero();QuestFifteenColor()">Alex Trebek</button>
+        </div>
+        <div row>
+            <button class=button id=15B onclick="QuestFifteenOne();QuestFifteenColor()"> Bob Barker</button>
+        </div>
+    </div>
+    <div class=final>
+        <button id=Submit onclick="result();SubmitColor()">Submit</button>
+    </div>
+    <script src="Quiz.js"></script>
+</body>
+
+</html>
